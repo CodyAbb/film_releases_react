@@ -1,0 +1,9 @@
+.release-box {
+  margin-top: 3em;
+  margin-left: 3em;
+  padding-left: 20px;
+  border: 2px solid black;
+  width: 30%;
+  justify-content: center;
+  align-content: center;
+}

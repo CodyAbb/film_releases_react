@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReleaseList from "../components/ReleaseList";
+import "./FutureReleasesBox.css";
 
 class FutureRealeasesBox extends Component {
   constructor(props) {
@@ -37,9 +38,14 @@ class FutureRealeasesBox extends Component {
 
   render() {
     return (
-      <article>
+      <article className="release-box">
         <h1>Upcoming film releases for the UK</h1>
         <ReleaseList releases={this.state.releases} />
+        <h2>
+          <a href="https://www.imdb.com/calendar/?region=gb">
+            View more releases
+          </a>
+        </h2>
       </article>
     );
   }
